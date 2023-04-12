@@ -391,7 +391,7 @@ span {
   height: 100%;
   display: flex;
   z-index: 20;
-  padding-top: 25px;
+  padding: 50px;
 }
 .mainContent {
   margin-left: -35px;
