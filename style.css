@@ -103,6 +103,7 @@ color: rgb(121, 255, 121);
   align-items: center;
   color: #fff;
   font-size: 30px;
+  cursor: pointer;
 }
 
 .profile-link {
@@ -525,6 +526,54 @@ span {
   cursor: pointer;
   gap: 10px;
 }
+.formTampilan form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.formTampilan input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 50%;
+  padding: 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 10px;
+}
+
+#check {
+  display: block;
+  margin-top: 12px;
+}
+
+.formTampilan input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.formTampilan #submit-form {
+  background-color: #4778ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.formTampilan #submit-form:hover {
+  background-color: #325bca;
+}
+
+.formTampilan #warning {
+  color: red;
+  margin-top: 12px;
+}
 
 #footer {
   margin-top: 50px;
@@ -541,7 +590,15 @@ span {
   width: 50px;
   height: 50px;
 }
-
+.textFooter span{
+  font-family: 'Alkatra', cursive;
+  color: rgb(121, 255, 121);
+  text-decoration: none;
+}
+.textFooter a{
+  color: #fe3034;
+  text-decoration: none;
+}
 .icon-footer {
   display: flex;
   z-index: 1;
@@ -553,3 +610,4 @@ span {
   width: 25px;
   cursor: pointer;
 }
+
